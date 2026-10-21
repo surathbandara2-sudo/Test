@@ -9,4 +9,10 @@ function Rules.winnerIndices(counts)
  end
  return tied
 end
+function Rules.hasBudget(current,maximum)
+ return current>=0 and current<maximum
+end
+function Rules.insideArena(x,y,z,half)
+ return y>=65 and math.abs(x)<=half and math.abs(z)<=half
+end
 return Rules
