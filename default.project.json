@@ -1,1 +1,29 @@
-{"name":"VoteToRuinIt","tree":{"$className":"DataModel","ReplicatedStorage":{"VTR":{"$path":"src/shared"}},"ServerScriptService":{"VTRServer":{"$path":"src/server"}},"StarterPlayer":{"StarterPlayerScripts":{"VTRClient":{"$path":"src/client"}}},"Workspace":{"$properties":{"StreamingEnabled":true}},"Lighting":{"$properties":{"GlobalShadows":true}}}}
+{
+  "name": "VoteToRuinIt-RuptureValley",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "VTR": { "$path": "src/shared" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "VTRServer": { "$path": "src/server" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "VTRClient": { "$path": "src/client" }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": { "StreamingEnabled": true }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": { "GlobalShadows": true }
+    }
+  }
+}
