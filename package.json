@@ -1,0 +1,1 @@
+{"name":"vote-to-ruin-it","private":true,"type":"module","scripts":{"test":"node tools/validate.mjs"},"devDependencies":{"luau-web":"1.5.1"}}
